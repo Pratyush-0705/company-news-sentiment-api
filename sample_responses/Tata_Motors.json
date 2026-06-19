@@ -1,0 +1,424 @@
+{
+  "company": "Tata Motors",
+  "articles_analyzed": 18,
+  "overall_sentiment": "positive",
+  "positive": 11,
+  "negative": 3,
+  "neutral": 4,
+  "articles": [
+    {
+      "title": "Conglomerates’ auto arms deepen AI deployment with group's IT biz, global partners help",
+      "description": "Tata Motors and Mahindra are scaling up AI use across manufacturing, sales and product development with help from group tech arms and partners like Nvidia, as the two compete for India's No. 2 passenger vehicle spot.",
+      "url": "https://www.livemint.com/auto-news/conglomerates-auto-arms-deepen-ai-deployment-with-groups-it-biz-global-partners-help-11781691468091.html",
+      "content": "\"Our AI capabilities have been developed and deployed by our teams internally. Our leaders across the business can deploy AI themselves to solve challenges in their processes—whether it's in our paint shop, our finance operations, or customer engagem... [3540 chars]",
+      "source": {
+        "id": "3bd4bd306c42647825fa42989624c036",
+        "name": "Livemint",
+        "url": "https://www.livemint.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-18T00:30:59Z",
+      "summary": "Ayaan Kartik is a Delhi-based journalist tracking the ever-growing world of automobiles and their components. Apart from automobiles, Ayaan likes to read up on geopolitics which has increasingly affected various sectors of the economy. Whether it is China's increasing grip on automobiles to growing affection for EVs in the country, Ayaan likes to connect his love for geopolitics and data to his stories as readers become more demanding on the types of stories they want.",
+      "keywords": [
+        "Tata Motors",
+        "passenger vehicle",
+        "vehicle spot.",
+        "teams internally",
+        "product development"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.9272109270095825
+    },
+    {
+      "title": "Tata Motors readies next-gen Nexon for 2027 debut",
+      "description": "New Nexon is expected to continue with petrol, diesel, CNG and EV options.",
+      "url": "https://www.financialexpress.com/auto/car-news/tata-motors-readies-next-gen-nexon-for-2027-debut/4269750/",
+      "content": "After giving the Tiago a major refresh, Tata Motors is preparing a generational update for the Nexon, one of its most strategically important products, with the new iteration of the compact SUV expected to arrive by mid-2027. The launch timeline woul... [3449 chars]",
+      "source": {
+        "id": "63361c66f51ee0c82a5325ba1c7b8d06",
+        "name": "The Financial Express",
+        "url": "https://www.financialexpress.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-17T16:15:53Z",
+      "summary": "The launch timeline woul... [3449 chars]New Nexon is expected to continue with petrol, diesel, CNG and EV options. According to JATO Dynamics, cumulative Nexon wholesale sales crossed 10.5 lakh units between 2017 and April 2026, making it one of India’s highest-selling compact SUVs. According to Ravi Bhatia of JATO, Nexon’s performance reflects a strong turnaround despite earlier volatility in the segment.",
+      "keywords": [
+        "Tata Motors",
+        "Nexon",
+        "SUV expected",
+        "compact SUV",
+        "CNG"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9491055011749268
+    },
+    {
+      "title": "Tata Motors slides 8% as JLR profit margin outlook remains below target",
+      "description": "Jaguar Land Rover (JLR) expects a 4% operating profit margin in the current fiscal year (FY27), well below its earlier stated target of reaching 10% in the near term, suggesting that recovery at the luxury carmaker could take longer than expected.",
+      "url": "https://www.livemint.com/auto-news/jlrs-profit-margin-outlook-stays-below-long-term-target-despite-expected-revenue-rebound-11781701213619.html",
+      "content": "Ayaan Kartik\nAyaan Kartik is a Delhi-based journalist tracking the ever-growing world of automobiles and their components. With an experience of five years ranging from short-form news at Inshorts to longform journalism at Outlook Business magazine, ... [894 chars]",
+      "source": {
+        "id": "3bd4bd306c42647825fa42989624c036",
+        "name": "Livemint",
+        "url": "https://www.livemint.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-17T15:12:02Z",
+      "summary": "With an experience of five years ranging from short-form news at Inshorts to longform journalism at Outlook Business magazine, ... [894 chars]New Delhi: Shares of Tata Motors Passenger Vehicles Ltd fell more than 8% on Wednesday after its British subsidiary Jaguar Land Rover (JLR) guided for a profit margin well below its near-term target amid tariff-related uncertainties and weakness in China’s premium vehicle market. These ‘Enterprise Missions’ will underpin JLR’s aim to drive £1.7bn of savings and return breakeven volumes towards 300,000 vehicles in the next two years,” the company said in a statement on its investor day. “As we enter a critical business delivery phase of our Reimagine strategy, launching five new products over the next two years across our incredible House of Brands, now is also the time to evolve our plan to offer global markets greater propulsion choice to unlock growth and build resilience,” Balaji said.",
+      "keywords": [
+        "Kartik Ayaan",
+        "Ayaan Kartik",
+        "Land Rover",
+        "expected.Ayaan Kartik",
+        "Delhi-based journalist"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.9748525619506836
+    },
+    {
+      "title": "Tata Motors PV-Owned Jaguar Land Rover To Launch Five Products",
+      "description": "The upcoming launches include Range Rover Electric, Range Rover Sport Electric and Jaguar Type 01, followed by new additions to the Range Rover and Defender brands on JLR's new Electrified Modular Architecture.",
+      "url": "https://www.ndtvprofit.com/business/tata-motors-pv-owned-jaguar-land-rover-to-launch-five-products-in-two-years-11648496",
+      "content": "Tata Motors Passenger Vehicles' subsidiary Jaguar Land Rover (JLR) is planning to launch five products in the next two years, the company said in an exchange filing on Wednesday, June 17.\nThe upcoming launches include Range Rover Electric, Range Rove... [1746 chars]",
+      "source": {
+        "id": "73aabc646bff1356a46223f250cc6b52",
+        "name": "NDTV Profit",
+        "url": "https://www.ndtvprofit.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-17T09:04:50Z",
+      "summary": "The upcoming launches include Range Rover Electric, Range Rover Sport Electric and Jaguar Type 01, followed by new additions to the Range Rover and Defender brands on JLR's new Electrified Modular Architecture.Tata Motors Passenger Vehicles' subsidiary Jaguar Land Rover (JLR) is planning to launch five products in the next two years, the company said in an exchange filing on Wednesday, June 17. The upcoming launches include Range Rover Electric, Range Rove... [1746 chars]",
+      "keywords": [
+        "Range Rover",
+        "Jaguar Type",
+        "Electrified Modular",
+        "Motors Passenger",
+        "Passenger Vehicles'"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.8477240800857544
+    },
+    {
+      "title": "JLR Targets Double-Digit Revenue Growth With Propulsion Flexibility",
+      "description": "JLR, a wholly owned subsidiary of Tata Motors Passenger Vehicles Limited, has outlined a Reimagine strategy targeting medium-term double-digit revenue growth through propulsion flexibility across MHEV, HEV, PHEV, and BEV options, five new product launches including electric Range Rover variants and Jaguar Type 01, a Stellantis MoU focused on the North American Defender market, £1.7 billion in cost savings targeting breakeven at 300,000 units, and a £18bn five-year investment commitment by FY29.",
+      "url": "https://scanx.trade/stock-market-news/companies/jlr-aims-for-double-digit-revenue-growth-by-enhancing-propulsion-flexibility-and-focusing-more-on-north-america/43228475",
+      "content": "Tata Motors Passenger Vehicles Limited 's wholly owned subsidiary Jaguar Land Rover (JLR) has outlined a strategic path to achieve medium-term double-digit revenue growth by enhancing propulsion flexibility across its House of Brands and intensifying... [7387 chars]",
+      "source": {
+        "id": "f746366686e467440a63dd26dbb72053",
+        "name": "scanx.trade",
+        "url": "https://scanx.trade",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-17T08:22:05Z",
+      "summary": "The upcoming Electrified Modular Architecture (EMA) at Halewood will facilitate this flexibility, with future models planned to include full HEV options. JLR has signed a non-binding memorandum of understanding with Stellantis to explore product and technology development specifically for the US market. This collaboration will focus on the Defender brand, aiming to deliver tailored luxury products for North American clients.",
+      "keywords": [
+        "Vehicles Limited",
+        "Passenger Vehicles",
+        "Motors Passenger",
+        "Tata Motors",
+        "Electric Vehicle"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.8869556188583374
+    },
+    {
+      "title": "Tata Motors to bring back physical buttons in future cars after customer feedback",
+      "description": "As car interiors become increasingly digital, Tata Motors is planning a shift back toward physical buttons and switches in its future models. The decision comes after customer feedback highlighted concerns about the heavy reliance on touchscreen controls in modern vehicles.",
+      "url": "https://www.indiatvnews.com/auto/tata-motors-to-bring-back-physical-buttons-in-future-cars-after-customer-feedback-2026-06-17-1045141",
+      "content": "New Delhi:\nTata Motors plans to bring back physical buttons and switches in its upcoming cars. As dashboards have gotten more digital, plenty of drivers have started pushing back. They told Tata that relying too much on touchscreens can be frustratin... [3031 chars]",
+      "source": {
+        "id": "143b993b193f72147f3de29ebcfbf505",
+        "name": "India TV News",
+        "url": "https://www.indiatvnews.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-17T05:53:50Z",
+      "summary": "As car interiors become increasingly digital, Tata Motors is planning a shift back toward physical buttons and switches in its future models. Tata’s promising better tactile controls and layouts that make sense without the driver having to think too hard. So, as tech keeps taking over car interiors, Tata Motors is making sure usability does not get left behind.",
+      "keywords": [
+        "Tata Motors",
+        "Tata",
+        "Motors plans",
+        "Motors",
+        "physical buttons"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.7585909962654114
+    },
+    {
+      "title": "Tata Motors’ Shailesh Chandra bets on growth, while PB Balaji focuses on transformation",
+      "description": "While one is maximising opportunity, the other is minimising risk and together, they are executing a common vision for Tata Motors’ future",
+      "url": "https://www.thehindubusinessline.com/companies/tata-motors-shailesh-chandra-bets-on-growth-while-pb-balaji-focuses-on-transformation/article71109060.ece",
+      "content": "Tata Motors’ annual report carries a faint reminder of Bollywood’s iconic Ram Lakhan. The film’s central tension lay in two brothers shouldering very different responsibilities while working towards the same goal. That contrast is visible in the shar... [3828 chars]",
+      "source": {
+        "id": "680f00482cbf9f314921fefd917871d9",
+        "name": "The Hindu Business Line",
+        "url": "https://www.thehindubusinessline.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T16:04:27Z",
+      "summary": "That contrast is visible in the shar... [3828 chars]Tata Motors’ annual report carries a faint reminder of Bollywood’s iconic Ram Lakhan. Yet, both leaders are pursuing the same long-term objective: building stronger brands, leveraging technology and creating a more resilient personal mobility business. For Shailesh Chandra, FY26 was more than a year of record sales and market share gains.",
+      "keywords": [
+        "Tata Motors’",
+        "Ram Lakhan",
+        "Tata",
+        "Tata Motors",
+        "iconic Ram"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.8597347140312195
+    },
+    {
+      "title": "Tata Motors’ FY26 free cash flow turns negative as JLR woes deepen",
+      "description": "Tata Motors reported negative free cash flow of ₹26,823 crore in FY26, compared with positive free cash flow of ₹22,236 crore a year earlier, as challenges at Jaguar Land Rover (JLR) weighed heavily on the group’s finances",
+      "url": "https://www.thehindubusinessline.com/news/tata-motors-fy26-free-cash-flow-turns-negative-as-jlr-woes-deepen/article71110260.ece",
+      "content": "Tata Motors reported negative free cash flow of ₹26,823 crore in FY26, compared with positive free cash flow of ₹22,236 crore a year earlier, as challenges at Jaguar Land Rover (JLR) weighed heavily on the group’s finances. The company’s consolidated... [2660 chars]",
+      "source": {
+        "id": "680f00482cbf9f314921fefd917871d9",
+        "name": "The Hindu Business Line",
+        "url": "https://www.thehindubusinessline.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T15:40:10Z",
+      "summary": "The company’s consolidated... [2660 chars]Tata Motors reported negative free cash flow of ₹26,823 crore in FY26, compared with positive free cash flow of ₹22,236 crore a year earlier, as challenges at Jaguar Land Rover (JLR) weighed heavily on the group’s finances. He noted that clean-energy transition, safety requirements and supply-chain shifts are reshaping competitiveness in the global auto industry. Key investments are being directed towards products such as the Range Rover Electric, Jaguar’s Type 01 electric grand tourer, and Tata Motors’ next-generation software-defined vehicle and EV programmes, underscoring the group’s long-term technology focus despite a difficult FY26.",
+      "keywords": [
+        "Land Rover",
+        "Jaguar Land",
+        "cash flow",
+        "free cash",
+        "Tata Motors"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.9721439480781555
+    },
+    {
+      "title": "Jaguar Land Rover's Outlook 'Challenging' as Cyberattack Harms Production",
+      "description": "Tata Motors warns of a challenging outlook for Jaguar Land Rover as a cyberattack, US tariffs and weak China demand hit FY26 revenue and production. Learn how JLR’s five-week shutdown, luxury taxes and model phase-outs dragged profits, even as Tata’s India passenger vehicle and EV businesses hit record sales and expand market share.",
+      "url": "https://www.outlookbusiness.com/corporate/jaguar-land-rovers-outlook-challenging-as-cyberattack-harms-production",
+      "content": "Tata Motors has cautioned that the outlook for its luxury vehicle business, Jaguar Land Rover (JLR), remains challenging and volatile after a cyberattack and rising trade barriers weighed heavily on performance during FY26.\nThe automaker, which compl... [2212 chars]",
+      "source": {
+        "id": "c0017d351977ceb4ddc2cc7ec633c5cf",
+        "name": "Outlook Business",
+        "url": "https://www.outlookbusiness.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T14:33:53Z",
+      "summary": "Tata Motors warns of a challenging outlook for Jaguar Land Rover as a cyberattack, US tariffs and weak China demand hit FY26 revenue and production. Learn how JLR’s five-week shutdown, luxury taxes and model phase-outs dragged profits, even as Tata’s India passenger vehicle and EV businesses hit record sales and expand market share.Tata Motors has cautioned that the outlook for its luxury vehicle business, Jaguar Land Rover (JLR), remains challenging and volatile after a cyberattack and rising trade barriers weighed heavily on performance during FY26. The automaker, which compl... [2212 chars]\"As we look ahead into FY27, we are focused on driving growth through our well differentiated House of Brands and reducing our break‑even volumes whilst we launch a slew of exciting products starting with the new Range Rover Electric, the unveiling of the first of our EMA products and the eagerly awaited new Jaguar,\" he added.",
+      "keywords": [
+        "Jaguar Land",
+        "Land Rover",
+        "weak China",
+        "China demand",
+        "Motors warns"
+      ],
+      "sentiment": "negative",
+      "confidence": 0.9030072689056396
+    },
+    {
+      "title": "JLR to focus on bringing back breakeven threshold to 300,000 units in next 2 years: N Chandrasekaran",
+      "description": "During FY26, Tata Motors Passenger Vehicles generated negative free cashflows, largely due to impact on volumes from production stoppages following a crippling cyberattack at JLR",
+      "url": "https://www.businesstoday.in/auto/story/jlr-to-focus-on-bringing-back-breakeven-threshold-to-300000-units-in-next-2-years-n-chandrasekaran-537226-2026-06-16",
+      "content": "British luxury carmaker Jaguar Land Rover (JLR) will focus on reducing its breakeven levels back to 300,000 units in the next two years, according to the Tata Motors Passenger Vehicles Chairman N Chandrasekaran.\nJLR's break-even volume threshold went... [2588 chars]",
+      "source": {
+        "id": "76a2f820b104591b97fed1b0932cec38",
+        "name": "Business Today",
+        "url": "https://www.businesstoday.in",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T11:35:31Z",
+      "summary": "JLR's break-even volume threshold went... [2588 chars]British luxury carmaker Jaguar Land Rover (JLR) will focus on reducing its breakeven levels back to 300,000 units in the next two years, according to the Tata Motors Passenger Vehicles Chairman N Chandrasekaran. JLR's break-even volume threshold went up significantly above 325,000 units in 2025-26 due to tariffs, currency and commodity inflation. Going forward, Tata Motors domestic passenger vehicle business could see more synergies with JLR.",
+      "keywords": [
+        "Motors Passenger",
+        "Tata Motors",
+        "Passenger Vehicles",
+        "Land Rover",
+        "Jaguar Land"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9153286218643188
+    },
+    {
+      "title": "Tata Motors PV eyes industry-leading FY27 growth as new launches, EV momentum fuel optimism",
+      "description": "Tata Motors Passenger Vehicles anticipates strong growth in fiscal 2027. The company plans new product launches and a multi-powertrain strategy. Collaboration with Jaguar Land Rover will enhance scale and efficiency. Tata Motors aims for industry-leading growth, focusing on safety, sustainability, and customer satisfaction. JLR will sharpen its luxury positioning and improve profitability.",
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-pv-eyes-industry-leading-fy27-growth-as-new-launches-ev-momentum-fuel-optimism/articleshow/131765231.cms",
+      "content": "Synopsis\nTata Motors Passenger Vehicles anticipates strong growth in fiscal 2027. The company plans new product launches and a multi-powertrain strategy. Collaboration with Jaguar Land Rover will enhance scale and efficiency. Tata Motors aims for ind... [5062 chars]",
+      "source": {
+        "id": "5464668c1f0466950a0b2fab5249ec6c",
+        "name": "The Economic Times",
+        "url": "https://economictimes.indiatimes.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T08:46:00Z",
+      "summary": "Tata Motors aims for industry-leading growth, focusing on safety, sustainability, and customer satisfaction. JLR will sharpen its luxury positioning and improve profitability.Synopsis Tata Motors Passenger Vehicles anticipates strong growth in fiscal 2027. Tata Motors aims for ind... [5062 chars]It seems like you're already an ETPrime member with",
+      "keywords": [
+        "Tata Motors",
+        "Motors Passenger",
+        "Passenger Vehicles",
+        "Jaguar Land",
+        "Land Rover"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9139129519462585
+    },
+    {
+      "title": "Tata Motors targets industry-beating growth with multi powertrain strategy",
+      "description": "We enter FY27 with confidence,” says MD & CEO Shailesh Chandra, citing a robust launch pipeline, multi-powertrain offerings and stronger fundamentals.",
+      "url": "https://www.financialexpress.com/business/news/tata-motors-targets-industry-beating-growth-with-multi-powertrain-strategy/4268695/",
+      "content": "“While the industry will need to closely monitor ongoing geopolitical developments, the fundamental demand drivers of the Indian passenger vehicle market remain strong, with growth expected to be led by SUV, CNG and EV segments,” Managing Director an... [2306 chars]",
+      "source": {
+        "id": "63361c66f51ee0c82a5325ba1c7b8d06",
+        "name": "The Financial Express",
+        "url": "https://www.financialexpress.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T08:37:12Z",
+      "summary": "SUVs remain central to this strategy, particularly as the segment accounted for more than 56% of India’s passenger vehicle sales in FY26. EV sales rose 43% year-on-year to 92,179 units, helping Tata Motors retain leadership in India’s electric passenger vehicle market with a 40.2% share. “Our decisive focus was on mainstreaming EVs by systematically and holistically addressing the barriers to their adoption,” Chandra said.",
+      "keywords": [
+        "Managing Director",
+        "CEO Shailesh",
+        "passenger vehicle",
+        "Shailesh Chandra",
+        "Indian passenger"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.93528151512146
+    },
+    {
+      "title": "Tata Motors bets on software-defined vehicles with t.idal platform",
+      "description": "SDV strategy to complement pipeline of new launches across ICE, CNG and EV segments",
+      "url": "https://www.business-standard.com/companies/news/tata-motors-accelerates-shift-to-software-defined-vehicles-126061600434_1.html",
+      "content": "SDV strategy to complement pipeline of new launches across ICE, CNG and EV segments\nThe company is also deploying NVIDIA Omniverse tools to optimise vehicle design and create digital twins of manufacturing facilities\nSohini Das\nListen to This Article... [4772 chars]",
+      "source": {
+        "id": "44d394a4e765f82b49b452e4302a72b0",
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T07:18:58Z",
+      "summary": "SDV strategy to complement pipeline of new launches across ICE, CNG and EV segmentsSDV strategy to complement pipeline of new launches across ICE, CNG and EV segments The company is also deploying NVIDIA Omniverse tools to optimise vehicle design and create digital twins of manufacturing facilities Sohini Das Listen to This Article... [4772 chars]",
+      "keywords": [
+        "NVIDIA Omniverse",
+        "Sohini Das",
+        "Das Listen",
+        "complement pipeline",
+        "SDV strategy"
+      ],
+      "sentiment": "neutral",
+      "confidence": 0.761348307132721
+    },
+    {
+      "title": "leading growth in FY27: Chairman N Chandrasekaran",
+      "description": "NEW DELHI, June 16:  Notwithstanding macroeconomic and geopolitical uncertainties, Tata Motors Passenger Vehicles is confident of delivering industry-leading growth in FY27, supported by a robust pipeline of new launches and multi-powertrain offerings, according to its Chairman N Chandrasekaran. Tata Motors...",
+      "url": "https://www.dailyexcelsior.com/tata-motors-pv-confident-of-delivering-industry-leading-growth-in-fy27-chairman-n-chandrasekaran/",
+      "content": "NEW DELHI, June 16: Notwithstanding macroeconomic and geopolitical uncertainties, Tata Motors Passenger Vehicles is confident of delivering industry-leading growth in FY27, supported by a robust pipeline of new launches and multi-powertrain offerings... [3440 chars]",
+      "source": {
+        "id": "28bc60a23a7bf89e60f893506992a3fe",
+        "name": "Daily Excelsior",
+        "url": "https://www.dailyexcelsior.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T07:16:04Z",
+      "summary": "Looking ahead, he said, \"We enter FY27 with confidence, supported by a robust pipeline of new launches and multi-powertrain offerings. The company will continue to focus on building distinctive, trusted and aspirational brands that connect meaningfully with customers, he added. With electrification at the core of sustainability, he said, \"We are committed to being Net Zero by 2040.",
+      "keywords": [
+        "Tata Motors",
+        "Motors Passenger",
+        "Passenger Vehicles",
+        "Notwithstanding macroeconomic",
+        "geopolitical uncertainties"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9077827334403992
+    },
+    {
+      "title": "Leading Growth in FY27: Chairman N Chandrasekaran – Outlook Business",
+      "description": "Tata Motors Passenger Vehicles chairman N Chandrasekaran says the company is poised for industry-leading growth in FY27, backed by new launches, multi-powertrain offerings and strong EV momentum. TMPV and JLR will deepen collaboration in manufacturing and technology, as Tata Motors scales its EV leadership, targets net-zero by 2040 and expands capacity with its new Panapakkam plant.",
+      "url": "https://www.outlookbusiness.com/news/tata-motors-pv-confident-of-delivering-industry-leading-growth-in-fy27-chairman-n-chandrasekaran",
+      "content": "Tata Motors Passenger Vehicles (TMPV) and its British arm Jaguar Land Rover (JLR) will continue to collaborate on manufacturing, technology and people, enhancing scale efficiencies, accelerating learning and reinforcing capital discipline, Chandrasek... [2476 chars]",
+      "source": {
+        "id": "c0017d351977ceb4ddc2cc7ec633c5cf",
+        "name": "Outlook Business",
+        "url": "https://www.outlookbusiness.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T07:13:57Z",
+      "summary": "Tata Motors Passenger Vehicles chairman N Chandrasekaran says the company is poised for industry-leading growth in FY27, backed by new launches, multi-powertrain offerings and strong EV momentum. TMPV and JLR will deepen collaboration in manufacturing and technology, as Tata Motors scales its EV leadership, targets net-zero by 2040 and expands capacity with its new Panapakkam plant.Tata Motors Passenger Vehicles (TMPV) and its British arm Jaguar Land Rover (JLR) will continue to collaborate on manufacturing, technology and people, enhancing scale efficiencies, accelerating learning and reinforcing capital discipline, Chandrasek... [2476 chars]For JLR, which had a challenging year in FY26 due to \"a confluence of internal and external disruption\", Chandrsekaran said, \"This is embodied in its House of Brands strategy, creating sharply differentiated luxury brands with clear identities, purpose and desirability.\" JLR will additionally focus on reducing its breakeven levels, which have been impacted by tariffs, currency and commodities inflation, \"back to 3 lakh units in the next two years, whilst remaining focused on delivering exceptional launches of its New Range Rover Electric, Jaguar Type 01 and continuing to build its Modern Luxury franchise\", he added.",
+      "keywords": [
+        "Motors Passenger",
+        "Passenger Vehicles",
+        "Tata Motors",
+        "Vehicles chairman",
+        "multi-powertrain offerings"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9360188841819763
+    },
+    {
+      "title": "Tata Motors PV eyes FY27 growth with new launches, EV push, JLR synergies: Chandrasekaran",
+      "description": "Tata Motors Passenger Vehicles expects industry-leading growth in FY27, backed by new model launches, a multi-powertrain strategy and deeper collaboration with JLR despite global uncertainties.",
+      "url": "https://www.cnbctv18.com/auto/tata-motors-passenger-vehicles-eyes-fy27-growth-with-new-launches-ev-push-and-jlr-synergies-chandrasekaran-ws-l-19926358.htm",
+      "content": "Tata Motors Passenger Vehicles expects industry-leading growth in FY27, backed by new model launches, a multi-powertrain strategy and deeper collaboration with JLR despite global uncertainties.\nBy PTI\nNotwithstanding macroeconomic and geopolitical un... [3629 chars]",
+      "source": {
+        "id": "4bf882bd9fc07a7fc3ab723f04e4f261",
+        "name": "CNBC TV18",
+        "url": "https://www.cnbctv18.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T07:02:40Z",
+      "summary": "Tata Motors Passenger Vehicles expects industry-leading growth in FY27, backed by new model launches, a multi-powertrain strategy and deeper collaboration with JLR despite global uncertainties.Tata Motors Passenger Vehicles expects industry-leading growth in FY27, backed by new model launches, a multi-powertrain strategy and deeper collaboration with JLR despite global uncertainties. \"JLR will additionally focus on reducing its breakeven levels, which have been impacted by tariffs, currency and commodities inflation, \"back to 3 lakh units in the next two years, whilst remaining focused on delivering exceptional launches of its New Range Rover Electric, Jaguar Type 01 and continuing to build its Modern Luxury franchise\", he added.Chandrasekaran pointed out that rapid global advances in digital technologies and AI are transforming how mobility products are designed, experienced and supported. \"Chandrasekaran further said TMPV remains a clear market leader in electric vehicles, surpassing the cumulative milestone of 2.5 lakh EVs and \"commanding a dominant two-thirds share of all EVs sold in India till date\".In fiscal 2026, the company sold over 92,000 EVs, marking a 43.4 per cent growth over the previous year, he noted.With electrification at the core of sustainability, he said, \"We are committed to being Net Zero by 2040.",
+      "keywords": [
+        "Passenger Vehicles",
+        "Motors Passenger",
+        "deeper collaboration",
+        "Vehicles expects",
+        "Tata Motors"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.861990213394165
+    },
+    {
+      "title": "Tata Motors PV confident of delivering industry-leading growth in FY27: Chairman N Chandrasekaran",
+      "description": "Tata Motors Passenger Vehicles anticipates industry-leading growth in FY27. This confidence stems from a strong lineup of new vehicle launches and diverse powertrain options. The company will continue its collaboration with Jaguar Land Rover on manufacturing and technology. Focus remains on safety, sustainability, quality, and customer satisfaction. Tata Motors is committed to Net Zero by 2040.",
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-pv-confident-of-delivering-industry-leading-growth-in-fy27-chairman-n-chandrasekaran/articleshow/131762696.cms",
+      "content": "Synopsis\nTata Motors Passenger Vehicles anticipates industry-leading growth in FY27. This confidence stems from a strong lineup of new vehicle launches and diverse powertrain options. The company will continue its collaboration with Jaguar Land Rover... [4461 chars]",
+      "source": {
+        "id": "5464668c1f0466950a0b2fab5249ec6c",
+        "name": "The Economic Times",
+        "url": "https://economictimes.indiatimes.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T06:59:00Z",
+      "summary": "This confidence stems from a strong lineup of new vehicle launches and diverse powertrain options. The company will continue its collaboration with Jaguar Land Rover on manufacturing and technology. This confidence stems from a strong lineup of new vehicle launches and diverse powertrain options.",
+      "keywords": [
+        "Motors Passenger",
+        "Tata Motors",
+        "Passenger Vehicles",
+        "Jaguar Land",
+        "Land Rover"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9288342595100403
+    },
+    {
+      "title": "Tata Motors PV bets on multi-powertrain strategy after record FY26; Chandrasekaran sees industry-leading growth ahead",
+      "description": "After becoming a pure-play passenger vehicle company, Tata Motors PV posted record sales and revenue in FY26, banking on SUVs, EVs and CNG vehicles to sustain growth momentum",
+      "url": "https://www.moneycontrol.com/news/business/companies/tata-motors-pv-bets-on-multi-powertrain-strategy-after-record-fy26-chandrasekaran-sees-industry-leading-growth-ahead-13950793.html",
+      "content": "Tata Motors Passenger Vehicles (TMPVL) is doubling down on its multi-powertrain strategy after reporting its highest-ever sales and revenue in FY26, with Chairman N Chandrasekaran and Managing Director Shailesh Chandra expressing confidence that the ... [3198 chars]",
+      "source": {
+        "id": "fd3677545b80d5db7541de8e111d27ba",
+        "name": "Moneycontrol",
+        "url": "https://www.moneycontrol.com",
+        "country": "in"
+      },
+      "publishedAt": "2026-06-16T06:58:46Z",
+      "summary": "He noted that customer demand increasingly shifted towards greener powertrains, with electric vehicles and CNG vehicles contributing significantly to growth, while products such as the Nexon, Punch and newly launched Sierra strengthened the company's market position. \"We enter FY27 with confidence, supported by a robust pipeline of new launches and multi-powertrain offerings. \"Our FY26 performance was driven by a consciously sharpened strategy to strengthen our product portfolio through precise segment actions, timely launches and continuous powertrain and variant optimisation to stay ahead of customer demand,\" Chandra wrote.",
+      "keywords": [
+        "Tata Motors",
+        "CNG vehicles",
+        "Managing Director",
+        "Director Shailesh",
+        "Shailesh Chandra"
+      ],
+      "sentiment": "positive",
+      "confidence": 0.9495381116867065
+    }
+  ]
+}

@@ -9,11 +9,18 @@ from config.settings import (
     MAX_ARTICLES
 )
 
+from services.filter_service import is_stock_news
+from services.relevance_service import is_relevant_article
+from services.normalize_service import normalize_company_query
+
+MAX_PAGES = 5
 
 def get_company_news(
     company: str,
     days: int
 ) -> list[dict]:
+
+    query = normalize_company_query(company)
 
     url = "https://gnews.io/api/v4/search"
 
@@ -21,18 +28,18 @@ def get_company_news(
     start_date = end_date - timedelta(days=days)
 
     articles = []
+    seen_titles = set()
     page = 1
 
-    while len(articles) < MAX_ARTICLES:
+    while len(articles) < MAX_ARTICLES and page <= MAX_PAGES:
 
         params = {
-            "q": company,
+            "q": query,
             "apikey": GNEWS_API_KEY,
-            "max": MAX_ARTICLES,
+            "max": 10,
             "page": page,
             "lang": "en",
-            "from": start_date.isoformat(),
-            "to": end_date.isoformat()
+            "from": start_date.isoformat()
         }
 
         try:
@@ -108,16 +115,25 @@ def get_company_news(
             if len(articles) >= MAX_ARTICLES:
                 break
 
-            articles.append({
-                "title": article.get("title",""),
-                "description": article.get("description",""),
-                "url": article.get("url",""),
-                "content": article.get("content",""),
-                "source": article.get("source",""),
-                "publishedAt": article.get("publishedAt","")
-            })
+            article_title = article.get("title","").strip()
 
-        if len(articles_from_api) < 10:
+            if article_title in seen_titles:
+                continue
+            
+            if(is_relevant_article(article,company) and not is_stock_news(article)):
+
+                seen_titles.add(article_title)
+
+                articles.append({
+                    "title": article.get("title",""),
+                    "description": article.get("description",""),
+                    "url": article.get("url",""),
+                    "content": article.get("content",""),
+                    "source": article.get("source",""),
+                    "publishedAt": article.get("publishedAt","")
+                })
+
+        if len(articles_from_api) == 0:
             break
 
         page += 1
