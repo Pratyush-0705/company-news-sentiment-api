@@ -1,3 +1,4 @@
+import time
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -137,5 +138,8 @@ def get_company_news(
             break
 
         page += 1
+
+        if(page <= MAX_PAGES):
+            time.sleep(1.1)
 
     return articles[:MAX_ARTICLES]
