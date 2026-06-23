@@ -1,44 +1,48 @@
-from sumy.parsers.plaintext import PlaintextParser
-from sumy.nlp.tokenizers import Tokenizer
-from sumy.summarizers.lsa import LsaSummarizer
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import logging
-
 
 logger = logging.getLogger(__name__)
 
+MODEL_NAME = "facebook/bart-large-cnn"
 
-summarizer = LsaSummarizer()
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
 
+def generate_summary(text: str) -> str:
 
-def generate_summary(text: str, sentence_count: int = 3) -> str:
-    """
-    Generate a short summary from article text.
-
-    Args:
-        text (str): Full article content
-        sentence_count (int): Number of summary sentences
-
-    Returns:
-        str: Summarized text
-    """
-
-    if not text or len(text.split()) < 50:
-        return text
+    if not text:
+        return ""
 
     try:
-        parser = PlaintextParser.from_string(
+
+        inputs = tokenizer(
             text,
-            Tokenizer("english")
+            return_tensors="pt",
+            max_length=1024,
+            truncation=True
         )
 
-        summary = summarizer(
-            parser.document,
-            sentence_count
+        summary_ids = model.generate(
+            inputs["input_ids"],
+            num_beams=8,
+            min_length=80,
+            max_length=180,
+            length_penalty=2.5,
+            no_repeat_ngram_size=3,
+            early_stopping=True
         )
 
-        return " ".join(str(sentence) for sentence in summary)
+        summary = tokenizer.decode(
+            summary_ids[0],
+            skip_special_tokens=True
+        )
+
+        return summary
 
     except Exception as e:
-        logger.warning(f"Summary generation failed: {e}")
+
+        logger.warning(
+            f"Summary generation failed: {e}"
+        )
 
         return text[:500]

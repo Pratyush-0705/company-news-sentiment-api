@@ -48,7 +48,7 @@ def company_sentiment(request: CompanyRequest):
         combined_text = description + content + scraped_content
 
         article["summary"] = generate_summary(
-            combined_text
+            scraped_content
         )
 
         article['keywords'] = get_keywords(combined_text)
