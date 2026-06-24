@@ -24,11 +24,10 @@ def generate_summary(text: str) -> str:
 
         summary_ids = model.generate(
             inputs["input_ids"],
-            num_beams=8,
             min_length=80,
             max_length=180,
-            length_penalty=2.5,
-            no_repeat_ngram_size=3,
+            num_beams=2,
+            no_repeat_ngram_size=2,
             early_stopping=True
         )
 

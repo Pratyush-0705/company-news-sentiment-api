@@ -1,3 +1,4 @@
+from concurrent.futures import ThreadPoolExecutor
 from fastapi import FastAPI, HTTPException
 
 from models.request_models import CompanyRequest
@@ -8,7 +9,6 @@ from services.summary_service import generate_summary
 from services.sentiment_service import get_articles_sentiment
 from services.keywords_service import get_keywords
 from services.analysis_service import analyze_sentiment
-
 
 app = FastAPI(
     title="Company News Sentiment API",
@@ -21,6 +21,25 @@ def root():
     return {
         "message": "Company News Sentiment API is running"
     }
+
+
+def process_article(article):
+
+    url = article.get("url","")
+    description = article.get("description","")
+    content = article.get("content","")
+
+    scraped_content = scrape_article(url)
+
+    combined_text = description + content + scraped_content
+
+    article["summary"] = generate_summary(
+        combined_text
+    )
+
+    article['keywords'] = get_keywords(combined_text)
+
+    return article
 
 
 @app.post("/company-sentiment")
@@ -37,21 +56,14 @@ def company_sentiment(request: CompanyRequest):
             detail="No articles found."
         )
 
-    for article in news:
+    with ThreadPoolExecutor(max_workers=5) as executor:
 
-        url = article.get("url","")
-        description = article.get("description","")
-        content = article.get("content","")
-
-        scraped_content = scrape_article(url)
-
-        combined_text = description + content + scraped_content
-
-        article["summary"] = generate_summary(
-            scraped_content
+        news = list(
+            executor.map(
+                process_article,
+                news
+            )
         )
-
-        article['keywords'] = get_keywords(combined_text)
 
     news = get_articles_sentiment(news)
 
