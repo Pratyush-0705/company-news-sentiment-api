@@ -5,14 +5,14 @@ classifier = pipeline(
     model="ProsusAI/finbert"
 )
 
-MAX_TEXT_LENGTH = 500
-
 def get_articles_sentiment(news: list[dict]) -> list[dict]:
 
     for article in news:
 
         text = (
             str(article.get("title", "")) +
+            " " + 
+            str(article.get("description","")) +
             " " +
             str(article.get("summary", ""))
         ).strip()
@@ -22,10 +22,12 @@ def get_articles_sentiment(news: list[dict]) -> list[dict]:
             article["confidence"] = 0
             continue
 
-        truncated_text = text[:MAX_TEXT_LENGTH]
-
         try:
-            result = classifier(truncated_text)
+            result = classifier(
+                text,
+                truncation= True,
+                max_length=512
+                                )
 
             article["sentiment"] = result[0]["label"].lower()
             article["confidence"] = result[0]["score"]
