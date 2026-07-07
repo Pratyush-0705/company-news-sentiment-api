@@ -9,6 +9,7 @@ from services.summary_service import generate_summary
 from services.sentiment_service import get_articles_sentiment
 from services.keywords_service import get_keywords
 from services.analysis_service import analyze_sentiment
+from services.deduplicate_service import deduplicate_articles
 
 app = FastAPI(
     title="Company News Sentiment API",
@@ -55,6 +56,8 @@ def company_sentiment(request: CompanyRequest):
             status_code=404,
             detail="No articles found."
         )
+
+    news = deduplicate_articles(news)
 
     with ThreadPoolExecutor(max_workers=5) as executor:
 
